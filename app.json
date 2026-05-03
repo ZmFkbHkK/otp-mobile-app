@@ -13,31 +13,16 @@
       "resizeMode": "contain",
       "backgroundColor": "#D81B4B"
     },
-    "ios": {
-      "supportsTablet": false
-    },
+    "ios": { "supportsTablet": false },
     "android": {
+      "package": "com.fadliwaykanan.otp",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#D81B4B"
       }
     },
-    "web": {
-      "favicon": "./assets/images/icon.png"
-    },
-    "plugins": [
-      [
-        "expo-router",
-        {
-          "origin": "https://replit.com/"
-        }
-      ],
-      "expo-font",
-      "expo-web-browser"
-    ],
-    "experiments": {
-      "typedRoutes": true,
-      "reactCompiler": true
-    }
+    "web": { "favicon": "./assets/images/icon.png" },
+    "plugins": ["expo-router", "expo-font", "expo-web-browser"],
+    "experiments": { "typedRoutes": true, "reactCompiler": true }
   }
 }
